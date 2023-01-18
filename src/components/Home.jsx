@@ -1,10 +1,12 @@
-import '../App.css'
+import '../styles/home.css'
 
 function Home() {
 
   return (
-    <div className="App">
-        <p>Home Page</p>
+    <div className="home" id='headerId'>
+        <div className='header'>
+          
+        </div>
     </div>
   )
 }

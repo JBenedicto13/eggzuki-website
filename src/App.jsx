@@ -13,13 +13,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/lore' element={<Lore />} />
-          <Route path='/whitepaper' element={<Whitepaper />} />
-          <Route path='/mint' element={<Mint />} />
-          <Route path='/fusion' element={<Fusion />} />
-        </Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/lore' element={<Lore />} />
+        <Route path='/whitepaper' element={<Whitepaper />} />
+        <Route path='/mint' element={<Mint />} />
+        <Route path='/fusion' element={<Fusion />} />
+      </Routes>
     </div>
   )
 }

@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: dimgray;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  margin-left: 150px;
+}
+
+.navbar-nav li {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+}
+
+.navbar-nav li a:hover {
+  color: #000;
+}
