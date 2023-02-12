@@ -11,7 +11,7 @@ const Navbar = () => {
 
     const [Mobile, setMobile] = useState(false);
     const navigate = useNavigate();
-    const [document_title, setDoucmentTitle] = useState("RisingEggplants");
+    const [document_title, setDoucmentTitle] = useState("Eggzuki");
     
     useEffect(() => {
         document.title = document_title; 
