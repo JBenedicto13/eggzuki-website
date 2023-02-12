@@ -58,6 +58,28 @@ function Home() {
               </div>
             </div>
           </div>
+          <div className='teamdiv'>
+            <h3>The Team</h3>
+            <div className='row teamrow1'>
+              <div className='col'>
+                <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/published/jigz.png?1670729919' alt='jigz'></img>
+              </div>
+              <div className='col'>
+                <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/published/ashe.png?1670729935' alt='ashe'></img>
+              </div>
+              <div className='col'>
+                <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/published/kuroshii.png?1670729931' alt='kuroshi'></img>
+              </div>
+            </div>
+            <div className='row teamrow2'>
+              <div className='col'>
+                <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/editor/cakey.png?1670729845' alt='cakeyy'></img>
+              </div>
+              <div className='col'>
+                <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/published/knifeyy.png?1670729954' alt='knifeyy'></img>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
   )
