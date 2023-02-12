@@ -10,7 +10,7 @@ function Home() {
         <div className='content'>
         <hr></hr>
           <div className='contentgroup'>
-            <div>
+            <div className='cg-top'>
               <h1>What is EGGZUKI?</h1>
               <p>EGGZUKI is a cute warrior who got lost and now looking for his master. On his journey, he met several friends who are willing to help him to gather information on his master's whereabouts. Would you like to help him? Visit the Lore to know more.</p>
               <hr></hr>
@@ -27,6 +27,35 @@ function Home() {
             </div>
             <div className='contentImage'>
               <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/ezgif-com-video-to-gif_orig.gif' alt='eggzukigif'></img>
+            </div>
+          </div>
+          <div className='contentgroup1'>
+            <div className='cg1-top'>
+              <div className='cg1-title-group'>
+                <div>
+                  <h2>ARCANE ITEMS</h2>
+                  <p>These items consists of Mystifying Auras, Glowing Armors, Weapons, and Head Gears, Elemental Eye Effects, and many more!</p>
+                </div>
+                <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/published/plus.png?1670755746' alt='arcaneitemsimg'></img>
+              </div>
+            </div>
+            <div className='cg1-bottom'>
+              <div className='cg1-bottom-left'>
+                <h2>Exploring creative depths</h2>
+                <br></br>
+                <p>Writers, Readers, Artists, Influencers, Creators, Guilds, and many more are all welcome! Come and join our discord channel <a style={{color: '#C23B3B', textDecoration: 'underline'}} href='https://discord.com/invite/KNfTnS4qzG' target='_blank'>here</a>.</p>
+                <br></br>
+                <p>Also make sure to follow our <a style={{color: '#5848b7', textDecoration: 'underline'}} href='https://twitter.com/_eggzukiNFT' target='_blank'>twitter</a>!</p>
+              </div>
+              <div className='cg1-bottom-right'>
+                <h2>A lasting journey</h2>
+                <br></br>
+                <h4>Mission</h4>
+                <p>To collaborate diversified class of writers in a positive space to hone their writing skills, augment their knowledge, and enrich one another. </p>
+                <br></br>
+                <h4>Vision</h4>
+                <p>To be the safest and most inspirational realm of collaborative writing and to nurture talents of literature in their pursuit of writing.</p>
+              </div>
             </div>
           </div>
         </div>
