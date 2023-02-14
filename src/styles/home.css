@@ -5,8 +5,11 @@
 }
 
 .header {
-    background-color: maroon;
-    height: 250px;
+    background-image: url("../assets/HeaderEggzuki.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
 .content {
@@ -31,6 +34,7 @@
 
 .contentImage img {
     max-width: 500px;
+    height: auto;
     padding: 50px 50px;
 }
 
@@ -53,6 +57,16 @@
 
 .cg1-title-group h2 {
     color: #5848b7;
+}
+
+.AIImageDiv {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.AIImageDiv img {
+    max-height: 250px;
 }
 
 .cg1-bottom {

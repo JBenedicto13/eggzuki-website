@@ -1,12 +1,16 @@
-import '../styles/home.css'
+import '../styles/home.css';
+
+// Image Imports
+import EggHappy from '../assets/EggHappy.gif';
+import AIImage1 from '../assets/ArcaneItemImage1.png';
+import AIImage2 from '../assets/ArcaneItemImage2.gif';
+
 
 function Home() {
 
   return (
     <div className="home" id='headerId'>
-        <div className='header'>
-          
-        </div>
+        <div className='header'/>
         <div className='content'>
         <hr></hr>
           <div className='contentgroup'>
@@ -26,7 +30,7 @@ function Home() {
               </p>
             </div>
             <div className='contentImage'>
-              <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/ezgif-com-video-to-gif_orig.gif' alt='eggzukigif'></img>
+              <img src={EggHappy} alt='EggHappy'></img>
             </div>
           </div>
           <div className='contentgroup1'>
@@ -36,7 +40,10 @@ function Home() {
                   <h2>ARCANE ITEMS</h2>
                   <p>These items consists of Mystifying Auras, Glowing Armors, Weapons, and Head Gears, Elemental Eye Effects, and many more!</p>
                 </div>
-                <img src='https://eggzuki.weebly.com/uploads/1/4/3/9/143985446/published/plus.png?1670755746' alt='arcaneitemsimg'></img>
+                <div className='AIImageDiv'>
+                  <img src={AIImage1} alt='AIImage1'></img>
+                  <img src={AIImage2} alt='AIImage2'></img>
+                </div>
               </div>
             </div>
             <div className='cg1-bottom'>
