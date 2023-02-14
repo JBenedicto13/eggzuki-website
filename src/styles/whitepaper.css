@@ -1,0 +1,32 @@
+.whitepaper {
+    height: auto;
+    width: 100%;
+}
+.whitepaper .header {
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whitepaper .header h2 {
+    color: #000;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.whitepaper .content {
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+}
+
+.whitepaper .content .content-top {
+    margin: 80px 0;
+}
+
+.whitepaper .content-main {
+    text-align: left;
+    margin: 50px 0;
+}
