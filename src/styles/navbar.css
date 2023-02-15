@@ -24,6 +24,6 @@
   padding: 5px 10px;
 }
 
-.navbar-nav li a:hover {
-  color: #000;
+.navbar-nav li a:hover, .navbar-brand:hover {
+  color: #548687;
 }

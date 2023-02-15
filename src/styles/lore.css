@@ -9,32 +9,6 @@
     padding: 75px;
 }
 
-.content .areas {
-    background-color: #ff0000;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-
-.content .areas:hover {
-    border: 3px solid yellow;
-    cursor: pointer;
-}
-
-.content #area1 {
-    position: absolute;
-    left: 1030px;
-    bottom: 310px;
-}
-
-.content #area2 {
-    position: absolute;
-    left: 870px;
-    bottom: 340px;
-}
-
 .lore .modal-body p {
     text-align: left;
     margin: auto 2rem;

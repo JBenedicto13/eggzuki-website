@@ -25,17 +25,17 @@ function Lore() {
         name: "Chapter 1",
         shape: "circle",
         coords: [456,511,12],
-        preFillColor: "green",
+        preFillColor: "#343633",
         lineWidth: 3,
-        fillColor: "#0000ff",
+        fillColor: "#548687",
     },
     {
         name: "Chapter 2",
         shape: "circle",
         coords: [569,283,23],
-        preFillColor: "pink",
+        preFillColor: "#343633",
         lineWidth: 3,
-        strokeColor: "#0000ff",
+        fillColor: "#548687",
     },
     ]
   }
