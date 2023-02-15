@@ -1,6 +1,7 @@
 import '../App.css';
 import '../styles/lore.css';
 import React, { useState } from 'react';
+import { ChapterData } from './ChapterData';
 
 function Lore() {
 
@@ -30,20 +31,25 @@ function Lore() {
       </div>
 
       <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h1 className="modal-title fs-5" id="staticBackdropLabel">{selectedChapter}</h1>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-              {selectedChapter}
-            </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" className="btn btn-primary">Understood</button>
-            </div>
-          </div>
+        <div className="modal-dialog modal-xl">
+          {ChapterData.map((item, key) => {
+            if (item.chapter === selectedChapter) {
+              return (
+                <div key={key} className="modal-content">
+                  <div className="modal-header">
+                    <h1 className="modal-title fs-5" id="staticBackdropLabel">{item.chapter}: {item.title}</h1>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div className="modal-body">
+                    <p>{item.content}</p>
+                  </div>
+                  <div className="modal-footer">
+                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              )
+            }
+          })}
         </div>
       </div>
     </div>

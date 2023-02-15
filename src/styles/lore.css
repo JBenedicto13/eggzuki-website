@@ -34,3 +34,10 @@
     left: 870px;
     bottom: 340px;
 }
+
+.lore .modal-body p {
+    text-align: left;
+    margin: auto 2rem;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
