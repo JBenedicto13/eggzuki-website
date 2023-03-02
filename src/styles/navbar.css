@@ -2,28 +2,100 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-height: min-content;
   background-color: #000;
-  border-bottom: 1px solid #ffffff50;
+  border-bottom: #ffffff2f 1px solid;
 }
 
-.navbar a {
+.logo-title {
+  max-width: 400px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #fff;
 }
 
-.navbar-brand {
-  text-transform: uppercase;
-  margin-left: 150px;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+.navbar a {
+  text-decoration: none;
 }
 
-.navbar-nav li {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 5px 10px;
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 15px;
 }
 
-.navbar-nav li a:hover, .navbar-brand:hover {
-  color: #548687;
+.nav-links li {
+  list-style: none;
+  color: #fff;
+  padding: 0rem 1.5rem;
+  text-transform: uppercase;
 }
+
+.nav-links li:hover, .logo-title:hover {
+  color: #D5D5D5;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+button {
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  background: none;
+}
+
+@media (max-width: 918px) {
+  .navbar {
+      padding: 10%;
+  }
+  .logo {
+    display: flex;
+    position: absolute;
+    left: 15px;
+    max-width: 120px;
+    min-width: 120px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: #000000b7;
+    z-index: 1;
+    padding: 25% 0;
+  }
+  .nav-links-mobile li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    right: 35px;
+    z-index: 1;
+    background: none;
+    border: #fff 1px solid;
+    color: #fff;
+  }
+  .socialIcons {
+    display: none;
+  }
+}
+

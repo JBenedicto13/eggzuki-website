@@ -43,7 +43,7 @@ function Lore() {
   var URL = "https://img.freepik.com/free-vector/map-pirate-island-treasure_23-2147629202.jpg?w=740&t=st=1676380322~exp=1676380922~hmac=8e8f4f361cad1e29380f0ca4152583ee054bab909dbb4b0bb94f14c4a3d6d427";
 
   return (
-    <div className="lore">
+    <div className="lore" id='loreId'>
       <div className='content'>
         <ImageMapper 
           src={URL} 
